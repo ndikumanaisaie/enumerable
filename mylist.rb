@@ -1,4 +1,4 @@
-require_relative 'module'
+require_relative 'Enumerable'
 
 # Class MyList
 class MyList
