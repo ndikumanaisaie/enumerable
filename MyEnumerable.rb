@@ -1,5 +1,5 @@
 # Module MyEnumerable
-module Enumeralbe
+module MyEnumeralbe
   def all?
     each { |item| return false unless yield item }
     true
