@@ -1,8 +1,8 @@
-require_relative 'Enumerable'
+require_relative 'enumerable'
 
 # Class MyList
 class MyList
-  include MyEnumeralbe
+  include enumeralbe
   def initialize(list)
     @list = list
   end
@@ -20,8 +20,8 @@ end
 list = MyList.new([1, 2, 3, 4])
 
 puts(list.all? { |e| e > 5 })
-puts(list.all? { |e| e > 5 })
+puts(list.all? { |e| e < 5 })
 
 puts(list.any? { |e| e == 2 })
 puts(list.any? { |e| e == 5 })
-p(list.filter(&:even?))
+puts(list.filter(&:even?))
